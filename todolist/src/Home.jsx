@@ -19,7 +19,7 @@ function Home() {
             <div><h2>No Record</h2></div>
             :
             todos.map(todo => (
-                <div>
+                <div className='task'>
                     {todo.task}
                 </div>
             ))
